@@ -1,14 +1,14 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/patelify/ruby.svg)](https://hub.docker.com/r/patelify/ruby/)
+
 # patelify/ruby
 
 A [Ruby](https://www.ruby-lang.org/en/) image based on a base image from [AlpineLinux](http://alpinelinux.org/). More specifically 'alpine:3.2'. 
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/patelify/ruby.svg)](https://hub.docker.com/r/patelify/ruby/)
-
-### Base Docker Image
+## Base Docker Image
 
 * [library/alpine3.2](https://hub.docker.com/_/alpine/)
 
-### Installed
+## Installed Details
 - ruby (2.2.2p95)
 - gem (2.4.8)
 - bundler (1.10.6)
