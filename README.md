@@ -27,3 +27,8 @@ This repository contains **Dockerfile** for [Ruby programming language](https://
 ### Usage
 
     docker run -it --rm patelify/ruby
+    
+or if you're feeling adventureous
+
+    docker run -it -rm patelify/ruby /bin/bash
+ 
