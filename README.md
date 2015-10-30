@@ -2,7 +2,7 @@
 
 A [Ruby](https://www.ruby-lang.org/en/) image based on a base image from [AlpineLinux](http://alpinelinux.org/). More specifically 'alpine:3.2'. 
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/patelify/ruby.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/patelify/ruby.svg)](https://hub.docker.com/r/patelify/ruby/)
 
 ### Base Docker Image
 
@@ -16,7 +16,6 @@ A [Ruby](https://www.ruby-lang.org/en/) image based on a base image from [Alpine
 ## Ruby Dockerfile
 
 This repository contains **Dockerfile** for [Ruby programming language](https://www.ruby-lang.org/en/) for [Docker](https://www.docker.com/)'s [automated build](https://hub.docker.com/r/patelify/ruby/) published to the public [Docker Hub Registry](https://hub.docker.com/).
-
 
 ### Installation
 
