@@ -2,16 +2,16 @@
 
 # patelify/ruby
 
-A [Ruby](https://www.ruby-lang.org/en/) container image built from [AlpineLinux](http://alpinelinux.org/). More specifically 'alpine:3.2'. 
+A [Ruby](https://www.ruby-lang.org/en/) container image built from [AlpineLinux](http://alpinelinux.org/). More specifically 'alpine:3.2'.
 
 ## Base Docker Image
 
 * [library/alpine3.2](https://hub.docker.com/_/alpine/)
 
 ## Image Details
-- ruby (2.2.2p95)
-- gem (2.4.8)
-- bundler (1.10.6)
+- ruby (2.2.3p173)
+- gem (2.6.4)
+- bundler (1.12.4)
 
 ## Ruby Dockerfile
 
@@ -27,9 +27,9 @@ This repository contains a **Dockerfile** that leverages AlpineLinux to build a 
 ### Usage
 
     docker run -it --rm patelify/ruby
-    
-    
+
+
 or if you're feeling adventureous
 
     docker run -it -rm patelify/ruby /bin/bash
- 
+

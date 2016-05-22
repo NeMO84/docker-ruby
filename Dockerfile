@@ -2,9 +2,11 @@ FROM alpine:3.2
 
 # install ruby
 RUN apk add --update linux-headers build-base \
+                     bash curl openntpd \
                      ruby-dev ruby \
-                     bash curl
-RUN rm -rf /var/cache/apk/*
+                     sqlite-dev mysql-dev \
+                     ca-certificates \
+                     git
 
 # upgrade gem
 RUN gem update --system --no-ri --no-rdoc
