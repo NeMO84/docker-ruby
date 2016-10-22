@@ -16,6 +16,7 @@ RUN gem update --system
 
 # install bundler
 RUN gem install bundler io-console
+RUN bundle config --global silence_root_warning 1
 
 # setup up some helpful aliases
 RUN echo "alias ls='ls --color=auto'" >> ~/.bashrc
