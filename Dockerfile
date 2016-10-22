@@ -14,8 +14,8 @@ RUN curl -o ~/.gemrc https://gist.githubusercontent.com/NeMO84/b0ebbda7503d90f76
 # upgrade gem
 RUN gem update --system
 
-# install bundler
-RUN gem install bundler io-console
+# install bundler, io-console, bigdecimal
+RUN gem install bundler io-console bigdecimal
 RUN bundle config --global silence_root_warning 1
 
 # setup up some helpful aliases
