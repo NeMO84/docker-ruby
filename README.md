@@ -2,16 +2,16 @@
 
 # patelify/ruby
 
-A [Ruby](https://www.ruby-lang.org/en/) container image built from [AlpineLinux](http://alpinelinux.org/). More specifically 'alpine:3.2'.
+A [Ruby](https://www.ruby-lang.org/en/) container image built from [AlpineLinux](http://alpinelinux.org/). More specifically 'alpine:3.4'.
 
 ## Base Docker Image
 
-* [library/alpine3.2](https://hub.docker.com/_/alpine/)
+* [library/alpine:latest](https://hub.docker.com/_/alpine/)
 
 ## Image Details
-- ruby (2.2.3p173)
-- gem (2.6.4)
-- bundler (1.12.4)
+- ruby (2.3.1p112 - 2016-04-26 revision 54768)
+- gem (2.6.7)
+- bundler (1.13.6)
 
 ## Ruby Dockerfile
 

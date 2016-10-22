@@ -15,7 +15,7 @@ RUN curl -o ~/.gemrc https://gist.githubusercontent.com/NeMO84/b0ebbda7503d90f76
 RUN gem update --system
 
 # install bundler
-RUN gem install bundler
+RUN gem install bundler io-console
 
 # setup up some helpful aliases
 RUN echo "alias ls='ls --color=auto'" >> ~/.bashrc
